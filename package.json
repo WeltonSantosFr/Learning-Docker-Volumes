@@ -1,0 +1,16 @@
+{
+  "name": "docker-volumes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --ignore ./data/** ./src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
